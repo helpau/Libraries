@@ -1,6 +1,6 @@
 ﻿#include <iostream>
-#include "MyCoolLib.h"
-//#include "..\StaticLib1\StaticLib1.lib"
+//#include "MyCoolLib.h"
+#include "..\StaticLib1\StaticLib1.h"
 using namespace std;
 
 int triple(int a, int b) {
