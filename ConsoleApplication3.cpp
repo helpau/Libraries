@@ -1,5 +1,6 @@
 ﻿#include <iostream>
-#include "MyCoolLib_lol.cpp"
+#include "MyCoolLib.h"
+//#include "..\StaticLib1\StaticLib1.lib"
 using namespace std;
 
 int triple(int a, int b) {
@@ -7,6 +8,7 @@ int triple(int a, int b) {
 }
 int main()
 {
+
     cout<<add(3, 2)<<endl;
     cout << triple(3, 2)<<endl;
 }
